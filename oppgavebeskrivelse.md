@@ -11,7 +11,7 @@ Bakgrunn: informasjon som er nødvendig for å forstå prosjektet (det er fult f
 
 # CT model viewer
 
-Making a VR program to view CT scan models
+Making a VR application to view CT scan models
 
 ## introduction
 
@@ -27,6 +27,9 @@ The problem with visualising the model in 2D a limited understanding of what the
 
 it is possible to print the 3d model to inspect it physically. This has many advantages, such as the surgeon being able to hold whatever he is operating on, measure the model, try out equipment etc. 
 The biggest drawback to this is that the printing process can take more than 24 hours depending on the model, which in some cases is too long. Another drawback is not having any digital tools such as transparency, displaying cross section or being able to change the model in any way.
+Another possible usecase for the VR viewer is using it to get a first look at a model, and then deciding if a printed model is necessary, potentially saving resources.
 
 ### Other commersial solutions
+
+medical holodeck https://helse-vest-ikt.no/vr-lab/behandling/medical-holodeck
 
