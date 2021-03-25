@@ -1,3 +1,4 @@
+```
 Tittel: sier seg selv.
 
 Abstrakt: kort omtale av hva prosjektet handler om
@@ -5,7 +6,7 @@ Abstrakt: kort omtale av hva prosjektet handler om
 Introduksjon: introdusere (veldig kort) temaområdet, problemstillingen og tiltenkt løsning
 
 Bakgrunn: informasjon som er nødvendig for å forstå prosjektet (det er fult forståelig at prosjekter som ikke er påbegynt kan ha en mangelfull bakgrunnsseksjon, men idéen her er å oppfordre studenten til å starte, så tidlig som mulig, med «bakgrunnsresearch», identifisere relevant fagfelt, samt forsøke å posisjonere sitt arbeid i forhold til eksisterende forsknings- og utviklingsarbeid).
-
+```
 
 
 # CT model viewer
