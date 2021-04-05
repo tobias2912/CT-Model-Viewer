@@ -52,8 +52,8 @@
     linkcolor=black,
     urlcolor=black,
     citecolor=black,
-    pdftitle=DAT251 - Fjellturchallenge - Group 5,
-    pdfauthor={Karl Henrik Elg Barlinn, Tobias Eilertsen, Sofia Eika, Maren Holm Hundvin, Torjus Schaathun, Mathias Skallerud Jacobsen}
+    pdftitle=Project proposal,
+    pdfauthor={Tobias Eilertsen}
 }
 
 \lstdefinelanguage{kotlin}{
@@ -78,45 +78,60 @@
 }
 \begin{document}
 
-\title{title}
+\title{Project proposal}
 
-\author{Tobias} 
-
+\author{Tobias Eilertsen}
 \maketitle
 
-\newpage
+
+\section*{supervisors}
+\begin{itemize}
+  \item Harald Solheim
+  \item Atle Geitung
+  \item Daniel Patel
+\end{itemize}
+\section*{Client}
+\begin{itemize}
+  \item Haukeland Universitetssykehus, medisinsk teknisk avdeling
+\end{itemize}
 
 \begin{abstract}
-veldig abstrakt abstract
+  Before and during a surgery, it is important for medical personel to have a good understanding of the anatomy of a patient.
+  The goal of this project is to create a better way for medical personal to inspect 3D models, making surgeries easier and safer.
 \end{abstract}
 
-\tableofcontents
-
 \newpage
+\section{introduction}
 
-\section{ CT model viewer}
-
-Making a VR application to view CT scan models
 
 \subsection{introduction}
 
 When a hospital recieves an injured patient that needs surgery, a CT scan is performed. The CT images are displayed as a 3D model on a computer that helps the medical personel prepare for surgery by visualising bone mass or other tissue. If a surgeon has a good understanding of a problem, it can be possible to perform a surgery that has less risk of complications or requires less resources.
 
-The problem with visualising the model in 2D a limited understanding of what the Bone/tissue actually looks like because of the lack of scale and depth. The solution to visualising the model is to view the model in AR or VR to give medical personel a good feel for what the problem actually looks like.
 
-\subsection{ background }
+The problem with visualising the model in 2D a limited understanding of what the Bone/tissue actually looks like because of the lack of scale and depth. The solution to visualising the model is to view the model in AR or VR to give medical personel a good feel for what the problem actually looks like. 
 
+\section{ background }
 \subsection{ existing solutions}
 
-\subsubsection { 3d printing }
+\subsubsection{existing VR viewers}
 
-it is possible to print the 3d model to inspect it physically. This has many advantages, such as the surgeon being able to hold whatever he is operating on, measure the model, try out equipment etc. 
-The biggest drawback to this is that the printing process can take more than 24 hours depending on the model, which in some cases is too long. Another drawback is not having any digital tools such as transparency, displaying cross section or being able to change the model in any way.
-Another possible usecase for the VR viewer is using it to get a first look at a model, and then deciding if a printed model is necessary, potentially saving resources.
+There exists some alternatives to viewing a CT scan in VR, such as Medical Holodeck \cite{holodeck} which is made for surgeons to plan surgeries and education. Current solutions are difficult to use for people not used to Virtual Reality \emph{}
 
-\subsubsection { Other commersial solutions }
+An Augumented reality viewer called Dicom Director also exists, but is not approved for clinical use. \cite{dicomdirector}
 
-medical holodeck https://helse-vest-ikt.no/vr-lab/behandling/medical-holodeck \cite{materialise}
+
+\subsubsection { 3D printing }
+
+An alternative to digital representation is to print the 3d model to inspect it physically \cite{virtualplanningand3dprinting}. This has many advantages, such as the surgeon being able to hold whatever he is operating on, measure the model, try out equipment etc. 
+The biggest drawback to 3D printing is that the printing process can take more than 24 hours depending on the model, which in some cases is too long. Another drawback is not having any digital tools such as transparency, displaying cross section or being able to change the model in any way.
+
+Another possible usecase for this project is getting a quick look at a model, and then deciding if a printed model is necessary, potentially saving resources.
+
+\subsubsection {2D viewer}
+
+There exists a wide range of computer programs to inspect CT images as 3D models, using the computer to interact with the model. 
+The current solution used by Helse Vest is materialise \cite{materialise}. Using a 2D viewer is fast and simple, but lacks the depth and scale of VR.
 
 
 
